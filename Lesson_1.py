@@ -6,6 +6,14 @@ username = "Montu Gohain"
 print("Currently the user is : %s" % username)
 num1 = 10
 num2 = 3
-sum_res = num1 + num2
+num3 = 5
+result = num1 + num2  # ? Here + is an arithmetic operator addition
+result = num1 - num2  # ? Here - is an arithmetia operator subtraction
+result = num1 / num2  # ? Here / is divide operator
+result = num1 % num2  # ? Here % is modulo operator which returns the remainder
 
-print("Total added value is : %d" % sum_res)
+# ? How to store fraction values
+
+result = 3 / 2
+rounded_result = 3 // 2
+print("Value : ", rounded_result)
