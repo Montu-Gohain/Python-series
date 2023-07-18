@@ -1,12 +1,13 @@
 """
-^ Let's Learn how to use String efficiently in Python
+ Learing how to use and manipulate strings in python
 """
 from colored import bg
+from datetime import datetime
 
 bluebg = bg("blue")
 
 prime_minster = "Modiji"
-print("Our Current Prime Minister is : %s" % (prime_minster))
+print("our current prime minister is : %s" % (prime_minster))
 
 
 # ? Let's covert any string to title case
@@ -65,3 +66,10 @@ print(sentence_)
 
 # ^ Rule for using apostrophes in strings (Its better to use double quotes instead of single quotes)
 opinion = "One of the python's strengths is its diversity"
+
+# *------------------- Try It Yourself (practice questions)---------------------
+
+currentTime = datetime.now().strftime("%H:%M:%S")
+# print(type(currentTime))
+newSlice = currentTime.split(":")
+currentHour = int(newSlice[0])
