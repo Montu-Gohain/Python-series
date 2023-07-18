@@ -17,8 +17,8 @@ print(sentence)
 line1 = "************************************************************"
 line2 = "*                                                          *"
 line3 = "*               Welcome to Python Programming              *"
-
-sequence = [line1, line2, line3, line2, line1]
+line4 = "*               Book : Python Crash Course                  *"
+sequence = [line1, line2, line3, line4, line2, line1]
 
 
 def PrintWelcome():
