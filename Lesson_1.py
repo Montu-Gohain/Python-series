@@ -1,5 +1,7 @@
-# Variables and simple data types
+# ?  Variables and simple data types
+from colored import bg
 
+mycolor = bg("blue")
 username = "Harry Potter"  # ? Here = is called the assignment operator.
 print("Currently the user is : %s" % username)
 # If I want to change the value of username to something else.
@@ -18,3 +20,13 @@ result = num1 % num2  # ? Here % is modulo operator which returns the remainder
 result = 3 / 2
 rounded_result = 3 // 2
 print("Value : ", rounded_result)
+
+
+# ? Creating a function that takes a message and print that message
+
+
+def PrintMessage(message):
+    print(mycolor, message)
+
+
+PrintMessage("Hello there, I am learning python, i am a noob but i will learn it.")
