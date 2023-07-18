@@ -1,4 +1,5 @@
-# Todo :  We'll Learn how to use variables and operators.
+# Variables and simple data types
+
 username = "Harry Potter"  # ? Here = is called the assignment operator.
 print("Currently the user is : %s" % username)
 # If I want to change the value of username to something else.
@@ -12,7 +13,7 @@ result = num1 - num2  # ? Here - is an arithmetia operator subtraction
 result = num1 / num2  # ? Here / is divide operator
 result = num1 % num2  # ? Here % is modulo operator which returns the remainder
 
-# ? How to store fraction values
+# ? How to store doubles values
 
 result = 3 / 2
 rounded_result = 3 // 2
